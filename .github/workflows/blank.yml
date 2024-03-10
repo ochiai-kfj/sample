@@ -32,9 +32,13 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: ecoo
+        run: ls /home/runner/work/
+      - name: ecoo
         run: ls /home/runner/work/sample/
       - name: ecoo
         run: ls /home/runner/work/sample/sample
+      - name: ecoo
+        run: ls /home/runner/work/sample/sample/sample
       - name: ecoo
         run: cat /home/runner/work/sample/sample/.classpath
       - name: ecoo
