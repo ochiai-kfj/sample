@@ -44,6 +44,6 @@ jobs:
       - name: ecoo
         run: cat /home/runner/work/sample/sample/pom.xml
       - name: Clean
-        run: mvn clean
+        run: mvn clean --file sample/pom.xml
       - name: install
-        run: mvn install
+        run: mvn install --file sample/pom.xml
