@@ -31,6 +31,10 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
+      - name: ecoo
+        run: echo /home/runner/work/sample/sample/.classpath
+      - name: ecoo
+        run: echo /home/runner/work/sample/sample/pom.xml
       - name: Clean
         run: mvn clean
       - name: install
