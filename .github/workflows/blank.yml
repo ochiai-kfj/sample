@@ -40,9 +40,7 @@ jobs:
       - name: ecoo
         run: ls /home/runner/work/sample/sample/sample
       - name: ecoo
-        run: cat /home/runner/work/sample/sample/.classpath
-      - name: ecoo
-        run: cat /home/runner/work/sample/sample/pom.xml
+        run: cat /home/runner/work/sample/sample/sample/pom.xml
       - name: Clean
         run: mvn clean --file sample/pom.xml
       - name: install
